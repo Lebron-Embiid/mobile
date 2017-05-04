@@ -1,0 +1,196 @@
+.header .width{
+	overflow: hidden;
+}
+.header button{
+	display: block;
+	width: 123px;
+	height: 53px;
+	border:2px solid #FF9344;
+	border-radius: 20px;
+	color:#000;
+	font-size: 26px;
+	background: #fff;
+	float: left;
+	margin: 48px 0 0 23px;
+	cursor: pointer;
+}
+.header span{
+	float: left;
+	display: block;
+	width:522px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 42px;
+	text-align: center;
+	color: #000;
+	font-size: 26px;
+	text-align: center;
+}
+.header .star{
+	float: left;
+	 margin-top: 50px;
+}
+.content .detail_banner{
+	display: block;
+	width: 705px;
+	overflow: hidden;
+	margin: 20px auto 30px;
+}
+.content .detail_banner img{
+	display: block;
+	width: 705px;
+	height: 260px;
+}
+
+.content .buy{
+	width:670px;
+	overflow: hidden;
+	margin:0 auto 50px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.content .buy span{
+	color:#ff9344;
+	font-size: 72px;
+	line-height: 72px;
+}
+.content .buy button{
+	width:110px;
+	height: 60px;
+	color:#fff;
+	background: #FF9344;
+	border-radius: 20px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+
+.content h4{
+	width:666px;
+	margin:0 auto;
+	font-size: 30px;
+	color:#000;
+	line-height: 50px;
+}
+.content h4 i{
+	display: block;
+	width: 45px;
+	height: 50px;
+	float: left;
+	background: url(../img/icon.png) -183px 5px no-repeat;
+}
+.content h4 span{
+	color:#ff9344;
+}
+.content h4 a{
+	float: right;
+	color:#8e8e8e;
+	font-size: 26px;
+	line-height: 50px;
+}
+.content .goods{
+	width: 666px;
+	overflow: hidden;
+	margin:20px auto 10px;
+}
+.content .goods h2{
+	background: #FF9344;
+	height: 66px;
+	line-height: 66px;
+	color:#fff;
+	font-size: 30px;
+	text-indent: 10px;
+}
+.content .goods h2 span{
+	float: right;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.content .detail_list{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.content .detail_list>li{
+	overflow: hidden;
+	margin-bottom: 9px;
+}
+.content .detail_list .left{
+	width:176px;
+	height: 176px;
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.content .detail_list .left h5{
+	width:100%;
+	position: absolute;
+	bottom:47px;
+	left: 0;
+	background: rgba(255,255,255,.67);
+	text-align: center;
+	line-height: 40px;
+	font-size: 24px;
+	color:#000;
+}
+.content .detail_list .center{
+	width: 350px;
+	height: 176px;
+	float: left;
+}
+.content .detail_list .center h3{
+	font-size: 30px;
+	color:#000;
+	line-height: 30px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.content .detail_list .center .star{
+	overflow: hidden;
+}
+.content .detail_list .center .star span{
+	display: block;
+	color:#929292;
+	font-size: 26px;
+	margin-top: 6px;
+}
+.content .detail_list .center .star li{
+	float: left;
+}
+.content .detail_list .center .star li:last-of-type{
+	margin-right: 10px;
+}
+.content .detail_list .center p{
+	font-size: 24px;
+	color: #929292;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.content .detail_list .center a{
+	color:#ff9344;
+	font-size: 20px;
+}
+
+.content .detail_list .right{
+	width:120px;
+	height: 176px;
+	line-height: 176px;
+	float: left;
+}
+.content .detail_list .right button{
+	display: block;
+	width:110px;
+	height: 60px;
+	margin: 66px auto 0;
+	background: #FF9344;
+	color:#fff;
+	font-size: 30px;
+	border-radius: 20px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}

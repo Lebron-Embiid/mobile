@@ -1,0 +1,143 @@
+.header button{
+	display: block;
+	width: 123px;
+	height: 53px;
+	border:2px solid #FF9344;
+	border-radius: 20px;
+	color:#000;
+	font-size: 26px;
+	background: #fff;
+	float: left;
+	margin: 48px 0 0 23px;
+	cursor: pointer;
+}
+.header span{
+	float: left;
+	display: block;
+	width:412px;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 42px;
+	text-align: center;
+	color: #000;
+	font-size: 26px;
+	text-align: center;
+}
+.header .city{
+	float: right;
+	margin:40px 21px 0 0;
+}
+.header .city li{
+	width: 163px;
+	height: 58px;
+	line-height: 58px;
+	border:2px solid #ff9344;
+	font-size: 26px;
+	text-indent: 16px;
+}
+.header .city li a{
+	color:#000;
+}
+.header .city li img{
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+.header .banner .slide{
+	width: 696px;
+	overflow: hidden;
+	margin: 20px auto 15px;
+}
+.header .banner .slide li{
+	float: left;
+	width:148px;
+	overflow: hidden;
+	margin-right: 33px;
+}
+.header .banner .slide li:last-of-type{
+	margin-right: 0;
+}
+.header .banner .slide li a{
+	display: block;
+	width: 148px;
+	text-align: center;
+	color:#000;
+	font-size: 26px;
+}
+
+.header .banner .btn{
+	width:93px;
+	overflow: hidden;
+	margin: 0 auto 15px;
+}
+.header .banner .btn li{
+	float: left;
+	width:18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #FFC9A1;
+	margin-right: 7px;
+	cursor: pointer;
+}
+.header .banner .btn li:last-of-type{
+	margin-right: 0;
+}
+.header .banner .btn li.active,.header .banner .btn li:hover{
+	background: #FF9344;
+}
+
+
+.content{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.content h2{
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	color:#000;
+	margin-bottom: 15px;
+}
+.content h2 i{
+	display: block;
+	width: 56px;
+	height: 55px;
+	float: left;
+	margin: 8px 9px 0 20px;
+}
+.content h2:first-of-type i{
+	background: url(../img/class.png) 0 5px no-repeat;
+}
+.content h2:nth-of-type(2) i{
+	background: url(../img/class.png) -73px 0 no-repeat;
+}
+.content h2:last-of-type i{
+	background: url(../img/class.png) -135px 0 no-repeat;
+}
+.content h2 a{
+	color:#000;
+	font-size: 24px;
+	float: right;
+	margin-right: 25px;
+}
+.content h2 a img{
+	margin-left: 8px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+.content .food,.content .play,.content .movie{
+	width:706px;
+	overflow: hidden;
+	margin:0 auto 30px;
+}
+.content .food li,.content .play li,.content .movie li{
+	float: left;
+	width:133px;
+	height: 133px;
+	overflow: hidden;
+	margin-right: 58px;
+}
+.content .food li:last-of-type,.content .play li:last-of-type,.content .movie li:last-of-type{
+	margin-right: 0;
+}
